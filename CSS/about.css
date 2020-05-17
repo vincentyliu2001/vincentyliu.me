@@ -1,13 +1,15 @@
+/* image for about me */
 img.about {
     float: left;
     margin: 20px 50px 20px 0;
 }
-
+/* paragraph for about me */
 p.about {
     text-align: justify;
     margin-right: 200px;
     margin-top: 20px;
 }
+/* the below css is just to format the links in the about page*/
 a.about{
   text-decoration: none;
 }
@@ -33,6 +35,7 @@ a.about:active {
   background: rgb(220, 220, 220);
   color: red;
 }
+/* indent the links */
 .links{
   text-indent: 50px;
 }
