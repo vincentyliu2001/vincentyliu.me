@@ -1,0 +1,38 @@
+img.about {
+    float: left;
+    margin: 20px 50px 20px 0;
+}
+
+p.about {
+    text-align: justify;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+a.about{
+  text-decoration: none;
+}
+a.about:link {
+  color: red;
+}
+
+a.about:visited {
+  color: red;
+}
+
+a.about:focus {
+  border-bottom: 1px solid;
+  background: rgb(220, 220, 220);
+}
+
+a.about:hover {
+  border-bottom: 1px solid;
+  background: rgb(200, 200, 200);
+}
+
+a.about:active {
+  background: rgb(220, 220, 220);
+  color: red;
+}
+.links{
+  text-indent: 50px;
+}

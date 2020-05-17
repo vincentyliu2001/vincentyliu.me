@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a website">
+    <title>Hobbies</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navigation">
+        <li>
+          <div class="home_wrap">
+            <a href="index.html"><img src="Pictures/name-image.png" alt="Vincent Liu" style="width:200px;height:50px;"/></a>
+          </div>
+        </li>
+        <div class="current_page">
+          <li><a href="hobbies.html" style="color: red">Hobbies</a></li>
+        </div>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <h1>Here are my hobbies, hover over the images to find out more!</h1>
+    <hr>
+    <div class="grid">
+        <div class="grid-item">
+          <a href="https://jstris.jezevec10.com/u/BeeboTheBuilder">
+            <div class="img__wrap">
+              <img src="Pictures/tetris.png" alt="Tetris!" style="width:200px;height:200px;"/>
+                <div class="img__description_layer">
+                  <p class="img__description">View My Tetris Profile</p>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <div class="img__wrap">
+            <a href="travel.html">
+                <img src="Pictures/stockvault-high-altitude121759.jpg" alt="My Travels" style="width:200px;height:200px;"/>
+                <div class="img__description_layer">
+                  <p class="img__description">My Travels</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <a href="https://github.com/vincentyliu2001">
+            <div class="img__wrap">
+              <img src="Pictures/github.png" alt="My Github" style="width:200px;height:200px;"/>
+                <div class="img__description_layer">
+                  <p class="img__description">View My Github</p>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <div class="img__wrap">
+            <img src="Pictures/books.png" alt="I love reading books" style="width:200px;height:200px;"/>
+              <div class="img__description_layer">
+                <p class="img__description">I love reading books</p>
+              </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <a href="https://youtu.be/-_Mgd4z2YZY?t=1190">
+            <div class="img__wrap">
+              <img src="Pictures/frisbee.jpg" alt="Ultimate Frisbee!" style="width:200px;height:200px;"/>
+                <div class="img__description_layer">
+                  <p class="img__description">Ultimate!</p>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="https://www.youtube.com/watch?v=iKcsKimt5Ds">
+            <div class="img__wrap">
+              <img src="Pictures/AI.jpg" alt="Watch my Tetris AI" style="width:200px;height:200px;"/>
+                <div class="img__description_layer">
+                  <p class="img__description">Watch my Tetris AI</p>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="https://open.spotify.com/user/vincentyliu2001?si=nX-IIeP4SbSZwtJYGiYeug">
+            <div class="img__wrap">
+              <img src="Pictures/spotify.jpg" alt="View my Spotify profile" style="width:200px;height:200px;"/>
+                <div class="img__description_layer">
+                  <p class="img__description">Spotify! Music!</p>
+                </div>
+            </div>
+          </a>
+        </div>
+    </div>
+      <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+      <script>
+        var elem = document.querySelector('.grid');
+        var msnry = new Masonry(elem, {
+          itemSelector:  '.grid-item',
+          gutter: 20,
+        })
+      </script>
+
+  </body>
+</html>

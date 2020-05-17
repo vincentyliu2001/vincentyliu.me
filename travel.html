@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a website">
+    <title>Travel</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navigation">
+        <li>
+          <div class="home_wrap">
+            <a href="index.html"><img src="Pictures/name-image.png" alt="Vincent Liu" style="width:200px;height:50px;"/></a>
+          </div>
+        </li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li><a href="travel.html" style="color: red">Travel</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <h1>Some snapshots of my travels:</h1>
+    <h1>China</h1>
+    <hr>
+    <div class="grid">
+        <div class="grid-item">
+            <img src="Pictures/greatwall.jpg" alt="China" style="width:312px;height:416px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/shanghai.jpg" alt="China" style="width:384px;height:288px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china1.jpg" alt="China" style="width:256px;height:192px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china2.jpg" alt="China" style="width:256px;height:192px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china3.jpg" alt="China" style="width:192px;height:256px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china4.jpg" alt="China" style="width:312px;height:416px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china5.jpg" alt="China" style="width:208px;height:156px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china6.jpg" alt="China" style="width:312px;height:416px;"/>
+        </div>
+        <div class="grid-item">
+            <img src="Pictures/china7.jpg" alt="China" style="width:312px;height:224px;"/>
+        </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script>
+      var elem = document.querySelector('.grid');
+      var msnry = new Masonry(elem, {
+        itemSelector:  '.grid-item',
+        gutter: 20,
+        columnWidth: 120,
+      })
+    </script>
+    <h1>Europe</h1>
+    <hr>
+    <div class="grid-2">
+        <div class="grid-item-2">
+            <img src="Pictures/europe1.jpg" alt="Europe" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe2.jpg" alt="Europe" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe3.jpg" alt="Europe" style="width:244px;height:326px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe4.jpg" alt="Europe" style="width:244px;height:326px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe5.jpg" alt="Europe" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe6.jpg" alt="Europe" style="width:244px;height:326px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe7.jpg" alt="Europe" style="width:244px;height:326px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe8.jpg" alt="Europe" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-2">
+            <img src="Pictures/europe9.jpg" alt="Europe" style="width:200px;height:301px;"/>
+        </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script>
+      var elem = document.querySelector('.grid-2');
+      var msnry = new Masonry(elem, {
+        itemSelector:  '.grid-item-2',
+        gutter: 20,
+        columnWidth: 130,
+      })
+    </script>
+    <h1>USA</h1>
+    <hr>
+    <div class="grid-3">
+        <div class="grid-item-3">
+            <img src="Pictures/us1.jpg" alt="USA" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-3">
+            <img src="Pictures/us4.jpg" alt="USA" style="width:416px;height:312px;"/>
+        </div>
+        <div class="grid-item-3">
+            <img src="Pictures/us2.jpg" alt="USA" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-3">
+            <img src="Pictures/us3.jpg" alt="USA" style="width:326px;height:244px;"/>
+        </div>
+        <div class="grid-item-3">
+            <img src="Pictures/us5.jpg" alt="USA" style="width:416px;height:312px;"/>
+        </div>
+        <div class="grid-item-3">
+            <img src="Pictures/us6.jpg" alt="USA" style="width:416px;height:312px;"/>
+        </div>
+        <div class="grid-item-3">
+            <img src="Pictures/us7.jpg" alt="USA" style="width:326px;height:244px;"/>
+        </div>
+    </div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script>
+      var elem = document.querySelector('.grid-3');
+      var msnry = new Masonry(elem, {
+        itemSelector:  '.grid-item-3',
+        gutter: 20,
+        columnWidth: 100,
+      })
+    </script>
+  </body>
+</html>
